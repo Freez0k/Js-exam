@@ -1,0 +1,45 @@
+
+.colorblock {
+    position: absolute;
+    margin: 1%;
+    background-color: black;
+    color: white;
+    width: 46%;
+    height: 94%;
+    opacity: .80;
+}
+
+.ellipsebutton {
+    margin-left: 2%;
+    margin-top: 2%;
+    width:3%;
+    height:3%;
+    display: block;
+    border-radius: 100%;
+    position: absolute;
+    background-color: white;
+    padding: 15px 10px 5px 10px;
+}
+
+hr{
+    margin-top:0px;
+    margin-bottom: 5px;
+    width:60%;
+    background-color: black;
+    color:black;
+    height:1px;
+}
+
+
+.imageblock {
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.logo {
+    position: absolute;
+    margin: 18% 0% 5% 3%;
+    width: 30%;
+}
