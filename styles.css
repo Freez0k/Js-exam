@@ -1,12 +1,19 @@
-
+.galochka{
+    position: absolute;
+    left:93%;
+    top:80%;
+    height: 6%;
+    width: 3%;
+    border-radius: 70px 70px 70px 70px;
+}
 .colorblock {
     position: absolute;
     margin: 1%;
-    background-color: black;
+    background-color: #1640e5;
     color: white;
     width: 46%;
     height: 94%;
-    opacity: .80;
+    opacity: .90;
 }
 body{
     margin: 0%;
@@ -30,12 +37,12 @@ body{
     z-index: -1;
 }
 hr{
-    margin-top:5px;
+    margin-top:7px;
     margin-bottom: 5px;
     width:60%;
     background-color: black;
     color:black;
-    height:1px;
+    height:4px;
 }
 
 .images img{
@@ -56,4 +63,18 @@ hr{
     position: absolute;
     margin: 16% 0% 5% 3%;
     width: 15%;
+}
+
+.header {
+    padding-right: 30%;
+    margin-top:20%; 
+    font-size:65px;
+    font-weight: 700;
+}
+
+.text {
+    padding-right: 15%;
+    margin-top:15%;
+    font-size:35px;
+    color:#345aef;
 }

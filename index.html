@@ -4,10 +4,11 @@
 		<meta charset = "utf-8">
         <link rel ="stylesheet" href="styles.css"/>
 		<title>HelloMonday</title>
-        
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="jquery-ui/jquery-ui.min.js"></script>
 	</head>    
-	<body onmousemove="Parallax(event)">
-      
+	<body id="b" onmousemove="Parallax(event)"
+          >
         <div class="ellipsebutton">
                 <hr/>
                 <hr/>
@@ -15,21 +16,24 @@
             </div>
             <img src="images/hellomonday-logo@2.png" class="logo">
         <div class="colorblock">
-            
+            <div style = "margin-left:50%">
+                <div style ="font-size:35px; margin-top:20px;">What's up-----</div>
+                <div style = "margin-top:50%; font-size:30px">Case</div>
+                <div class="header">#AlmostForgot A new kind of music videos</div>
+                <div class="text">Folowing The DNA Project,the year-long musical experiment that documented the making of his latest album in real-time J.Views and Hello Monday</div>
+            </div>
         </div>
       <div class="imageblock">
           
         </div>
         <div class = "images">
-        <img id ="im1" src="images/HM_almostforgot_01.jpg">
-        <img id ="im2" src="images/HM_almostforgot_02.png">
-        <img id ="im3"  src="images/HM_almostforgot_03.png">
-        <img id ="im4" src="images/HM_almostforgot_04.png">
+            <img id ="im1" src="images/HM_almostforgot_01.jpg">
+            <img id ="im2" src="images/HM_almostforgot_02.png">
+            <img id ="im3" src="images/HM_almostforgot_03.png">
+            <img id ="im4" src="images/HM_almostforgot_04.png">
         </div>
-        <div class = "galochka">
-            <img src ="images/galochka.jpg
-                       ">
-            </div>
+            <img id="gal1" class="galochka" src ="images/galochka%20(2).jpg">
+            <img id="gal2" class="galochka" style="top:87%" src="images/galochka2reverse.png">
         <script src="scripts.js"></script>
 	</body>
 </html>
