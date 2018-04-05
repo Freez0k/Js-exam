@@ -42,7 +42,7 @@ hr{
     width:60%;
     background-color: black;
     color:black;
-    height:4px;
+    height:2px;
 }
 
 .images img{
@@ -77,4 +77,13 @@ hr{
     margin-top:15%;
     font-size:35px;
     color:#345aef;
+}
+.current img{
+    top:0%;
+}
+.prev img{
+    top:-150%;
+}
+.next img{
+    top:250%;
 }
